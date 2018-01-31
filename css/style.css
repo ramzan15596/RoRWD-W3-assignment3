@@ -1,0 +1,77 @@
+body{
+	color:#fff;
+	font-size: 16px;
+	text-align: justify;
+}
+h2{
+	color: #1e6b3d;
+}
+.wrapper{
+	background-color: #1e6b3d;
+	font-family: monospace;
+}
+.head{
+	padding: 0px !important;
+	background-color: unset;
+	margin-bottom: 20px;
+}
+.head > h1{
+	font-size: 40px;
+	float: left;
+    margin-bottom: 0px;
+}
+.mynav{
+	background-color: unset;
+	border-color: unset;
+	border: unset;
+}
+.mynav a{
+	background-color: unset;
+
+}
+.nav-links > li > a{
+	color: #fff !important;
+}
+.nav-links > li:hover{
+	background-color: #5c5050;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #000;
+}
+.section1, .section2, .section3{
+	background-color: #1f3f6b;
+    margin-top: 50px;
+}
+.menu{
+	margin: 0 auto;
+}
+.toggle{ margin:0; }
+
+
+@media (min-width: 768px) and (max-width: 991px){ 
+	.section1, .section2, .section3{
+		padding-top: 10px;
+	}
+
+ }
+
+@media (max-width: 767px) { 
+
+
+.col-xxs-12{ 
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 100%;	
+}
+	.section1, .section2, .section3{
+		padding-top: 10px;
+	}
+.head > h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+}
